@@ -1,1 +1,1 @@
-# Object-detection-using-Pytorch-framework
+# Object detection using Pytorch framework for tumor detection
