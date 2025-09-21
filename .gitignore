@@ -6,3 +6,4 @@ outputs/
 *.pth
 *.pt
 .env
+data/
