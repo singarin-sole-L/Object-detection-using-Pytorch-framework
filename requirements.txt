@@ -1,0 +1,14 @@
+torch>=2.0.0
+torchvision>=0.15.0
+pycocotools
+opencv-python
+pillow
+matplotlib
+tqdm
+pyyaml
+albumentations
+tensorboard
+jupyter
+scikit-learn
+pandas
+seaborn
