@@ -8,8 +8,8 @@ tqdm
 pyyaml
 albumentations
 tensorboard
-jupyter
 scikit-learn
 pandas
 seaborn
-ipykernel
+numpy
+kagglehub
