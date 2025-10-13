@@ -15,8 +15,8 @@ how well the model knows *where* a tumor is versus *what* type it is.
 ## 📘 Overview
 
 MRI data are processed slice-by-slice (axial orientation) and passed to a **Faster R-CNN** model trained to predict:
-- Bounding boxes around tumors,
-- Class labels indicating MGMT methylation status.
+- Bounding boxes around tumors
+- Class labels indicating MGMT methylation status
 
 Main evaluation metrics:
 - **Spatial Precision / Recall** : IoU-based detection accuracy (positioning of boxes)  
@@ -76,8 +76,8 @@ A custom evaluation module computes:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/MGMT-Detection-Axial.git
-cd MGMT-Detection-Axial
+git clone https://github.com/singarin-sole-L/Object-detection-using-Pytorch-framework-for-tumor-detection.git
+cd Object-detection-using-Pytorch-framework-for-tumor-detection
 ```
 
 ### 2. Install dependencies
@@ -87,11 +87,8 @@ pip install -r requirements.txt
 
 ### 3. Run evaluation and visualization
 ```bash
-jupyter notebook notebooks/analysis.ipynb
+jupyter notebook notebooks/training_and_evaluation.ipynb
 ```
-
-You can modify dataset paths, score thresholds, and IoU filters directly in the notebook or `src/metrics.py`.
-
 ---
 
 ## 🧾 Notes
@@ -127,4 +124,4 @@ providing richer spatial and textural context for tumor characterization.
 
 **SINGARIN-SOLE Livio**  
 2025  
-Machine Learning for Medical Imaging — MRI Tumor Detection and Classification  
+Machine Learning for Medical Imaging, MRI Tumor Detection and Classification  
