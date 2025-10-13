@@ -12,3 +12,4 @@ jupyter
 scikit-learn
 pandas
 seaborn
+ipykernel
