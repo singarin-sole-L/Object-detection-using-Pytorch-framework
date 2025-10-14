@@ -2,6 +2,7 @@
 
 This project implements and evaluates an **object detection pipeline** (based on **Faster R-CNN / PyTorch**)  
 for **brain tumor localization and MGMT promoter status classification** using **MRI axial slices**.
+Dataset source: https://www.kaggle.com/datasets/davidbroberts/brain-tumor-object-detection-datasets
 
 The model simultaneously:
 - Detects tumor **bounding boxes**,  
