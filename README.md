@@ -13,7 +13,7 @@ how well the model knows *where* a tumor is versus *what* type it is.
 
 ---
 
-## 📘 Overview
+## Overview
 
 MRI data are processed slice-by-slice (axial orientation) and passed to a **Faster R-CNN** model trained to predict:
 - Bounding boxes around tumors
@@ -30,7 +30,7 @@ A custom evaluation module computes:
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 ├── data/                    # MRI dataset and annotations
@@ -43,7 +43,7 @@ A custom evaluation module computes:
 
 ---
 
-## 🧠 Key Results (Axial-only)
+## Key Results (Axial-only)
 
 | Metric Type | Precision | Recall | Interpretation |
 |:-------------|:----------:|:---------:|:-----------------------------|
@@ -56,7 +56,7 @@ A custom evaluation module computes:
 
 ---
 
-## 🎯 Visualization
+## Visualization
 
 ### Ground Truth vs Model Predictions (Example of bad predictions)
 *(Green: MGMT+ / Red: MGMT−)*  
@@ -73,7 +73,7 @@ A custom evaluation module computes:
 
 ---
 
-## ⚙️ Usage
+## Usage
 
 ### 1. Clone the repository
 ```bash
@@ -92,7 +92,7 @@ jupyter notebook notebooks/training_and_evaluation.ipynb
 ```
 ---
 
-## 🧾 Notes
+## Notes
 
 - **NMS (Non-Maximum Suppression)** is applied before evaluation to ensure reliable detection metrics.  
 - Precision and recall are reported **separately for spatial and label correctness**.  
@@ -101,7 +101,7 @@ jupyter notebook notebooks/training_and_evaluation.ipynb
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 The next step of this project is to **extend the model to 3D-aware inference**,  
 combining **axial, coronal, and sagittal** planes simultaneously.  
@@ -121,8 +121,7 @@ providing richer spatial and textural context for tumor characterization.
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **SINGARIN-SOLE Livio**  
-2025  
-Machine Learning for Medical Imaging, MRI Tumor Detection and Classification  
+2025   
