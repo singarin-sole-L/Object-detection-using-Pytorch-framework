@@ -48,7 +48,7 @@ A custom evaluation module computes:
 | Metric Type | Precision | Recall | Interpretation |
 |:-------------|:----------:|:---------:|:-----------------------------|
 | **Spatial (IoU ≥ 0.5)** | 0.935 | 0.889 | Excellent tumor localization |
-| **Label (MGMT+/−)** | 0.468 | 0.444 | Moderate label accuracy bc limited by single-axis input |
+| **Label (MGMT+/−)** | 0.468 | 0.444 | Very low label accuracy bc limited by single-axis input and data (<200 samples) |
 
 > These results are consistent with expectations:  
 > Using only **axial slices** limits the available 3D and textural information  
